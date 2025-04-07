@@ -5,7 +5,7 @@ import './NavBar.css'
 export const NavBar = () => {
   return (
     <>
-      <Navbar bg="dark" data-bs-theme="dark">
+      <Navbar className='Nav' data-bs-theme="dark">
         <Container>
           <Navbar.Brand href="#home">EVENZA</Navbar.Brand>
           <Nav className="me-auto">

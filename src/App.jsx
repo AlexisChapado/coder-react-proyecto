@@ -11,18 +11,20 @@ function App() {
 
   return (
     <>
-      <div>
-        <NavBar></NavBar>
-      </div>
-      <div className='CartWidget'>
-        <CartWidget></CartWidget>
+      <body className="App">
+        <div>
+          <div>
+            <NavBar></NavBar>
+          </div>
+          <div className='CartWidget'>
+            <CartWidget></CartWidget>
 
-        <CartWidget></CartWidget>
+            <CartWidget></CartWidget>
 
-        <CartWidget></CartWidget>
-      </div>
-
-      
+            <CartWidget></CartWidget>
+          </div>
+        </div>
+      </body>
       
     </>
   )
