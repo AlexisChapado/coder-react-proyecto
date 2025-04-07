@@ -20,8 +20,7 @@ function App() {
           <div className='CartWidget'>
 
             <CartWidget></CartWidget>
-            <CartWidget></CartWidget>
-            <CartWidget></CartWidget>
+            
           </div>
         </div>
 

@@ -6,24 +6,25 @@ import '../../App.jsx'
 export const CartWidget = () => {
 
   return (
-    <div className='CartWidget'>
-        <Card className='contenedor' style={{ width: '18rem' }}
-        >
-            <Card.Img  variant="top" src="holder.js/100px180" />
-            <Card.Body >
-                <Card.Title>"Nombre del Ticket"</Card.Title>
-                <Card.Text>
-                    "Informacion del evento"
-                </Card.Text>
-                <Button variant="primary"
+
+    <Card className='CartWidget'> 
+      <Card.Body>
+        <Card.Title>Bienvenidos a Evenza</Card.Title>
+        <Card.Text>
+        En esta seccion podras comprar tus tickets para los eventos que mas te gustan
+        </Card.Text>
+        <div className='boton'>
+          <Button variant="primary"
                 type='danger'
                 onClick={() =>{
-                    console.log('REDIRECCIONANDO A PAGO');
+                    console.log('REDIRECCIONANDO AL PAGINA DE COMPRA');
                     
                 }}>Comprar Ticket</Button>
-            </Card.Body>
+        </div>
+        
+      </Card.Body>
     </Card>
-    </div>
+
   )
 }
 
