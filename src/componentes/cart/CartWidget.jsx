@@ -1,8 +1,10 @@
 import React from 'react'
 import { Card, Button } from 'react-bootstrap'
 import './CartWidget.css'
+import '../../App.jsx'
 
 export const CartWidget = () => {
+
   return (
     <div className='CartWidget'>
         <Card className='contenedor' style={{ width: '18rem' }}
@@ -15,8 +17,8 @@ export const CartWidget = () => {
                 </Card.Text>
                 <Button variant="primary"
                 type='danger'
-                onClick={(evento) =>{
-                    console.log(evento);
+                onClick={() =>{
+                    console.log('REDIRECCIONANDO A PAGO');
                     
                 }}>Comprar Ticket</Button>
             </Card.Body>

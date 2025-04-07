@@ -11,20 +11,20 @@ function App() {
 
   return (
     <>
-      <body className="App">
-        <div>
+      
+        <div className="App">
           <div>
             <NavBar></NavBar>
           </div>
+
           <div className='CartWidget'>
-            <CartWidget></CartWidget>
 
             <CartWidget></CartWidget>
-
+            <CartWidget></CartWidget>
             <CartWidget></CartWidget>
           </div>
         </div>
-      </body>
+
       
     </>
   )
